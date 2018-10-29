@@ -1,0 +1,138 @@
+body {
+    background-color: #4aa272;
+    font-family: sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+input {
+    border-style: none;
+    border-bottom-style: groove;
+    border-bottom-color: #e9e9e9;
+}
+
+label {
+    font-size: 10pt;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+
+}
+
+.content {
+	background-color: #ffffff;
+	width: 25%;
+	margin: 0 auto;
+    margin-top: 20%;
+}
+
+.auth_form {
+	padding: 30px;
+    padding-top: 80px;
+}
+
+.tab_login {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 10pt;
+    font: bold;
+    text-align: center;
+    border-style: none;
+    background-color: white;
+}
+
+.tab_register {
+    background-color: #e1e1e1;
+    color: white;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    padding: 10pt;
+    text-align: center;
+    border-style: none;
+}
+
+.inputs_labels {
+    padding-top: 10pt;
+    width: 100%;
+}
+
+
+
+.row_forgot_btn {
+    display: flow-root;
+    padding-top: 10pt;
+}
+
+.forgot_label {
+    padding-top: 10pt;
+    display: inline-block;
+    float: left;
+    font-size: 8pt;
+    color: #8fabaf;
+}
+
+.row_signin {
+    position: relative;
+}
+
+.btn_signin {
+    background-color: #4aa272;
+    display: inline-block;
+    float: right;
+    padding: 10pt;
+    color: white;
+    width: 33%;
+    text-align: center;
+    border-style: none;
+}
+
+.logo_f {
+    background: url(logo_fb.png) no-repeat; 
+    background-color: #2b5a90;
+    height: 40px;
+    display: inline-block;
+    float: left;
+    width: 25%;
+}
+
+.fbsignin {
+    background-color: #3064a0;
+    display: inline-block;
+    float: right;
+    width: 75%;
+    color: white;
+    font-size: 8pt;
+    height: 100%;
+    position: absolute;
+    padding: 10pt;
+}
+
+.logo_g {
+    background: url(logo_g.png) no-repeat; 
+    background-color: #b04847;
+    height: 40px;
+    display: inline-block;
+    float: left;
+    width: 25%;
+}
+
+.gsignin {
+    background-color: #c84a4b;
+    display: inline-block;
+    float: right;
+    width: 75%;
+    color: white;
+    font-size: 8pt;
+    height: 100%;
+    position: absolute;
+    padding: 10pt;
+}
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body, html {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+
+            font-size: 24px;
+        }
+
+        div {
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        #container {
+            width: 30%;
+            border: 1px black solid;
+            display: flex;
+            flex-wrap: wrap;
+            max-height: 300px;
+            overflow: auto;
+        }
+
+        #container > div {
+            width: 20%;
+            border: 1px black solid;
+            font-size: 0;
+        }
+
+        #container > div:after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+    </div>
+
+</body>
+</html>

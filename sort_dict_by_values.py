@@ -1,0 +1,1 @@
+d = {'apple': 10, 'orange': 20, 'banana': 5, 'rotten tomato': 1} print(sorted(d, key=d.get))
